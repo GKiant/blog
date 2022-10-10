@@ -1,0 +1,35 @@
+.flex-row {
+  flex-wrap: wrap;
+}
+
+.link-primary {
+  padding: 0 5px;
+  cursor: pointer;
+}
+
+.test {
+  min-height: 600px;
+}
+
+.articles-container {
+  margin-top: 50px;
+
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.article-container {
+  margin-bottom: 15px;
+}
+
+.header-link {
+  cursor: pointer;
+  background: url('./index.html');
+  font-size: 26px;
+  color: rgb(27, 73, 77);
+
+}
+
